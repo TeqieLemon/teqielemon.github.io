@@ -1,0 +1,96 @@
+.char {
+	animation: type 0.5s linear 0s 1;
+}
+
+html {
+	font-size: 12px;
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	color: #c0100a;
+    background-color: #1b0302;
+    text-align: center;
+    vertical-align: middle;
+    padding: 70px 0;
+	overflow: hidden;
+	font-family: "VT323", monospace;
+	font-size: 32pt;
+    box-shadow: 0.6px 90px 110px -60px #1b0302;
+}
+
+a {
+	outline: none;
+}
+
+#crt {
+    background-image: radial-gradient(ellipse, #1b0302 0%, #050505 90%);
+    z-index: 3;
+    animation: on 2s linear;
+	transition: all 0.5s;
+	overflow: hidden;
+    display: block;
+	position: absolute;
+    top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+.terminal {
+    position: relative;
+	height: 100%;
+	padding: 2rem;
+	overflow-y: auto;
+	overflow-x: hidden;
+	word-break: break-word;
+	text-transform: uppercase;
+	animation: textShadow 4s infinite;
+    text-shadow: 0 0 5px #c8c8c8;
+}
+
+.scanline {
+	width: 100%;
+	height: 100px;
+	z-index: 8;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.2) 10%, rgba(0, 0, 0, 0.1) 100%);
+	opacity: 0.1;
+	position: absolute;
+	bottom: 100%;
+	pointer-events: none;
+	animation: scanline 20s linear infinite;
+    overflow: hidden;
+}
+
+#typer {
+    vertical-align: middle;
+    box-align: center;
+    padding: 250px;
+}
+
+.scanlines {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0.6));
+    background-size: 100% 0.3rem;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.piece {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+.noclick {
+    pointer-events: none;
+}
