@@ -28,7 +28,7 @@ table {
 body {
     background-color: #000000;
     color: #FFFFFF;
-    font-family: "Aldrich";
+    font-family: 'Aldrich', sans-serif;
     height: 100%;
     display: block;
     margin: 8px;
@@ -82,9 +82,4 @@ img {
     vertical-align: -webkit-baseline-middle;
 }
 
-@font-face {
-    font-family: 'Aldrich';
-    src: url("../fonts/Aldrich.ttf") format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
