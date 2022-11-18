@@ -84,5 +84,6 @@ img {
 
 @font-face {
     font-family: Aldrich;
-    src: url("../../teqielemon.github.io/Aldrich.ttf");
+    src: url("../../teqielemon.github.io/Aldrich.ttf") format('truetype');
+    font-style: normal;
 }
