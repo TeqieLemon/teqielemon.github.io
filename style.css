@@ -83,7 +83,7 @@ img {
 }
 
 @font-face {
-    font-family: Aldrich;
-    src: url("fonts/Aldrich.ttf") format('truetype');
+    font-family: 'Aldrich';
+    src: url("../fonts/Aldrich.ttf") format('truetype');
     font-style: normal;
 }
