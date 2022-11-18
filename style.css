@@ -81,3 +81,8 @@ a:-webkit-any-link{
 img {
     vertical-align: -webkit-baseline-middle;
 }
+
+@font-face {
+    font-family: Aldrich;
+    src: url("../../teqielemon.github.io/Aldrich.ttf");
+}
