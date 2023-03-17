@@ -28,7 +28,7 @@ table {
 body {
     background-color: #000000;
     color: #FFFFFF;
-    font-family: Aldrich;
+    font-family: 'Aldrich';
     height: 100%;
     display: block;
     margin: 8px;
@@ -83,6 +83,6 @@ img {
 }
 
 @font-face {
-    font-family: Aldrich;
+    font-family: 'Aldrich';
     src: url(Aldrich.ttf);
 }
