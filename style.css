@@ -82,4 +82,7 @@ img {
     vertical-align: -webkit-baseline-middle;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@font-face {
+    font-family: Aldrich;
+    src: url(Aldrich.ttf);
+}
