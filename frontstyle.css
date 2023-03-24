@@ -1,0 +1,82 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 100%;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.main {
+    margin: 32px;
+    width: 512px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+    text-align: -webkit-center;
+    display: block;
+}
+
+.links {
+    width: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: left;
+    display: block;
+}
+
+.subtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    display: block;
+}
+
+#roll1 {
+    background-image: url(roll.png);
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    width: calc(100% + 2000px);
+    overflow: hidden;
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 1;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#roll2 {
+    background-image: url(roll.png);
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    width: calc(100% + 2000px);
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 1;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(-60px, 0px);
+    }
+}
