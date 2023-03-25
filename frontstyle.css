@@ -19,9 +19,6 @@ body {
     text-align: center;
     text-align: -webkit-center;
     display: block;
-    background-image: url(front_bg.gif);
-    background-attachment: fixed;
-    height: calc(100%+1000px);
 }
 
 .links {
